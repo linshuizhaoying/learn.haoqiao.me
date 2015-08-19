@@ -1,0 +1,22 @@
+$font-color:blue;
+$test:yellow;
+#example{
+    color: $font-color;
+    font-size: 40px;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    animation:step-end ;
+  }
+}
